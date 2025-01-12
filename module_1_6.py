@@ -4,7 +4,7 @@ print(my_dict['Nafis'])
 my_dict['Ljaisan'] = 1972
 my_dict.update({'Mother': 1945,
                 'Dad': 1936})
-print(my_dict.pop('Dad'))
+my_dict.pop('Dad')
 print(my_dict)
 
 my_set = {24, 9, 1, 9, 2, 7, 2, 7, 27, 7, 9, 8, 28, 3, 'умер'}
